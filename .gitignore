@@ -1,0 +1,22 @@
+# Secrets — never sync to GitHub
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Runtime / generated data — Gitea only if needed
+fund_data/
+data/
+logs/
+.cache/
+*.sqlite
+*.db
+
+# Dependencies & build
+node_modules/
+__pycache__/
+.venv/
+dist/
+build/
